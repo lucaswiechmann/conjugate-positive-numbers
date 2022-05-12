@@ -4,6 +4,11 @@ import (
 	"strconv"
 )
 
+/*
+ConjugateNumbers method transform initial data received
+into conjugate one. It works with 2d slices to transform
+and build new data.
+*/
 func ConjugateNumbers(arrNumbers []string) []int {
 	var firstElem = 0
 	firstElem, _ = strconv.Atoi(arrNumbers[0])
